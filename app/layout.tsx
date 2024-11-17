@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import RainbowkitWrapper from "./wrappers/RainbowkitWrapper";
 import ConnectWallet from "./components/ConnectWallet";
-
+import Head from "next/head";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,6 +33,9 @@ export default function RootLayout({
   };
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/rick.ico" />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -42,7 +45,7 @@ export default function RootLayout({
             style={backgroundStyle}
           >
             <div className="bg-black p-4 text-white z-20 relative">
-            <ConnectWallet />
+              <ConnectWallet />
             </div>
             {children}
           </div>
