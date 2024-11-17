@@ -68,7 +68,7 @@ export default function Home() {
             dangerouslySetInnerHTML={{
               __html: `${displayedText}${cursorVisible ? "_" : " "}`, // Add blinking cursor
             }}
-            className="text-center text-6xl md:text-7xl font-bold"
+            className="text-center text-5xl md:text-7xl font-bold"
           ></p>
 
           <div className="flex w-full justify-between text-xl md:text-3xl text-center mt-12 md:px-12">
