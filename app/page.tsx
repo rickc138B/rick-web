@@ -54,7 +54,7 @@ export default function Home() {
       <div className="absolute bg-black h-full w-full top-0 opacity-50 z-5"></div>
       <div className="flex flex-wrap items-center h-full px-2 md:px-12 gap- relative">
         <div
-          className="w-full md:min-h-96 xl:w-5/12 md:my-0 my-16 p-6 rounded-lg py-12 opacity-80"
+          className="w-full md:min-h-96 xl:w-5/12 md:my-0 md:my-16 p-6 rounded-lg py-12 opacity-80"
           style={{
             background: `radial-gradient(circle, #ffffff, #afffff, #0b0e0e)`,
             fontFamily: `sour_gummy, sans-serif`,
