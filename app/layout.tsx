@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const backgroundStyle = {
-    backgroundImage: `url(/C138-B%20LAB.png)`,
+    backgroundImage: `url(/C138-B%20LAB3.png)`,
     backgroundSize: "cover",
     backgroundPosition: "right",
   };
