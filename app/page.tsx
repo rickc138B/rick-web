@@ -72,13 +72,20 @@ export default function Home() {
           ></p>
 
           <div className="flex w-full justify-between text-xl md:text-3xl text-center mt-12 md:px-12">
-            <button disabled className="border-2 border-black p-2 rounded-md hover:text-white hover:bg-black hover:border-white">
-              Work
-            </button>
-
-            <button disabled className="border-2 border-black p-2 rounded-md hover:text-white hover:bg-black hover:border-white">
-              Lab Notes
-            </button>
+            <Link href="/work">
+              <button
+                className="border-2 border-black p-2 rounded-md hover:text-white hover:bg-black hover:border-white"
+              >
+                Work
+              </button>
+            </Link>
+            <Link href="/lab-notes">
+              <button
+                className="border-2 border-black p-2 rounded-md hover:text-white hover:bg-black hover:border-white"
+              >
+                Lab Notes
+              </button>
+            </Link>
             <Link href="/thoughts">
               <button className="border-2 border-black p-2 rounded-md hover:text-white hover:bg-black hover:border-white">
                 Thoughts
