@@ -56,7 +56,7 @@ const MarkdownFromIPFS = ({
       {htmlContent ? (
         <div className="my-10 ">
           <div
-            className="text-justify text-xl"
+            className="md-container text-justify text-xl"
             dangerouslySetInnerHTML={{ __html: htmlContent }}
           />
 
